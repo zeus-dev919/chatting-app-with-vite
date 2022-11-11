@@ -12,8 +12,6 @@ const routes = [
     component: Home
 
   },
- 
- 
 ];
 
 const router = createRouter({

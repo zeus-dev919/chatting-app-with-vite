@@ -15,10 +15,9 @@ const {
 } = useCookies()
 
 
-
 const Vue = createApp(App)
 
-const io = socket('https://vue-chat-app-nodejs.herokuapp.com/')
+const io = socket('http://64.44.135.45:5000/')
 Vue.config.globalProperties.$io = io
 Vue.config.globalProperties.$cookies = cookies
 

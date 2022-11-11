@@ -55,7 +55,6 @@ const store = createStore({
             this.commit('setRoom', null)
             this.commit('setUserName', '')
             this.commit('setRoomPassword', '')
-        
         }
 
     },
